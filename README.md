@@ -13,3 +13,14 @@ An efficient OSINT framework for analyzing publicly accessible data linked to re
 
 ---
 ## Installation ⚙️
+```
+git clone https://github.com/Muhammad-Muzammil-Khokhar/CSF-OSINT.git
+cd CSF-OSINT
+pip install -r requirements.txt
+```
+
+## Usage 🚀
+
+`python CSF-OSINT.py -num 03001234567`
+
+`python CSF-OSINT.py -l numbers.txt`
