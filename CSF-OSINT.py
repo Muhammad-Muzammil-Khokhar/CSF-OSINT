@@ -1,6 +1,6 @@
 import os
 import argparse
-import requests
+import requests 
 from bs4 import BeautifulSoup
 from rich.console import Console
 from rich.table import Table
@@ -8,7 +8,7 @@ from rich.panel import Panel
 from rich.progress import track
 
 # Configuration & Branding
-BASE_URL = "https://live-tracker.site/"
+BASE_URL = "https://wikiservices.lovable.app/sim-database"
 UA_STRING = "Mozilla/5.0 (X11; Kali Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
 class CSF_OSINT:
@@ -21,7 +21,7 @@ class CSF_OSINT:
         self.session = requests.Session()
         self.session.headers.update({
             "User-Agent": UA_STRING,
-            "Origin": "https://live-tracker.site",
+            "Origin": "https://wikiservices.lovable.app/sim-database",
             "Referer": BASE_URL,
             "Content-Type": "application/x-www-form-urlencoded"
         })
